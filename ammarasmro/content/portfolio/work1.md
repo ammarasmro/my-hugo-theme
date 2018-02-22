@@ -1,31 +1,25 @@
 +++
-showonlyimage = true
+showonlyimage = false
 draft = false
-image = "img/portfolio/a4-paper.jpg"
+image = "/img/portfolio/personalized-knowledge-graphs/schema.png"
 date = "2016-11-05T18:25:22+05:30"
-title = "Name of the work 1"
-weight = 0
+title = "personalized-knowledge-graphs"
+weight = 1
 +++
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-<!--more-->
+A personal assistant that helps with projects
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+This project started as an idea last summer, I started researching and experimenting around. I have decided to work on it during the last term of my Master of Engineering program as my capstone project.
 
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+The biggest inspiration for me was Jarvis from Iron Man, I always wanted to have a Jarvis that can help me with building projects, keep track of the steps, and help me find information.
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
+{{< figure src="/img/portfolio/personalized-knowledge-graphs/schema.png" width="60%" >}}
 
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+## Main parts
+* **Discovery Client:** This client communicates with the discovery service provided by IBM Watson. It gets a JSON response which contains text, keywords, concepts, etc. Those are sent into the DiscoveryDocument class for parsing.
+* **OpenIE Client:** Stanford CoreNLP provides Open Information Extraction. Basically this takes sentences and turns them into subject -- verb --> object triplets.
+* **Coref Client:** Stanford CoreNLP also provides Coreference Resolution. This is useful to detect multiple mentions of the same subject. In our case, I'm also using it as a story telling part, since it can separate the same sentence on multiple points and give the depending verb that links the two sentences. This will be useful to create more triplets and also to check the previous triplets.
+* **Database:** Neo4j is going to be used to store the information for the projects. This is a very tricky part of the project and will take time to finish.
+* **Actions on Google:** (Out of current scope) This will be the last step of the project. By following the procedure on the Actions Console I will submit my chatbot to the Google Assistant team for review and hopefully it will be available for public use.
 
-## Header Level 2
-
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
-
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+<!-- [1]: /img/portfolio/personalized-knowledge-graphs/schema.png -->
