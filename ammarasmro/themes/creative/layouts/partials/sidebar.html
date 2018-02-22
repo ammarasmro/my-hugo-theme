@@ -1,6 +1,9 @@
 <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
-  <div class="sidebar-content">
+  <div class="sidebar-container sidebar-content">
     <h1 class="sidebar-heading"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+    <div class="sidebar-profile-picture">
+      <img id="profile-pic" style="padding: 10px;" class="  img-circle img-responsive img-fluid headshot" src="/img/about.jpg" alt="Author's picture">
+    </div>
     {{ range .Site.Params.sidebarAbout }}
       <p class="sidebar-p">{{ . | safeHTML }}</p>
     {{ end }}
