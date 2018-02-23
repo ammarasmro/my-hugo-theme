@@ -1,31 +1,35 @@
 +++
-image = "img/portfolio/label-clothes.jpg"
+image = "/img/portfolio/microcontrolled-takeout-robot/cool_cover_circuit.jpg"
 showonlyimage = false
 date = "2016-11-05T19:57:40+05:30"
-title = "Name of the work 7"
+title = "Microcontrolled Takeout Robot"
 draft = false
 weight = 7
 +++
 
-Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
-<!--more-->
+A pneumatic robotic system that has two movements about two axes, it is used as a take-out robot to carry any object (like a bottle or a jar or anything solid) from one side to the other. Several analysis were carried out to analyze the movements of the robot. The detection of the object can is done by a photo sensor. A strain gauge is installed in the system to detect the weight of the object. The 89c52 microcontroller is used to control the robot movement by controlling the electromagnetic valves. The microcontroller is programmed using C++ language. The sensors are used in a feedback loop to control the termination of the robot. An LCD display is added to display available options for the operator to select, which is done by pressing 4 push buttons, and to display the current state of the robot. The aim of the project was to design the controller, construct a prototype, and display it at the **Design Day** competition at the University of Duhok. Our project placed first on the ECE projects in the competition.
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
 
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+#### Main Parts
+* **The robot**
+  * *Rotary Cylinder*
+  * *Linear Cylinder*
+  * *Robotic arm (The grip)*
+* **Pneumatic valves**
+* **Photocell sensor**
+* **Strain gauge**
+* **Control circuit**
+  * *Microcontroller*
+  * *LCD*
+  * *Push buttons*
+  * *Instrumentation amplifier*
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
+{{< figure src="/img/portfolio/microcontrolled-takeout-robot/final_schema.jpg" width="60%" caption="Schema" >}}
 
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+##### The Robot
+{{< figure src="/img/portfolio/microcontrolled-takeout-robot/robot_vertical.jpg" width="60%" caption="The Robot" >}}
 
-## Header Level 2
+{{< figure src="/img/portfolio/microcontrolled-takeout-robot/linear_cylinder.jpg" width="60%" caption="Linear cylinder" >}}
+{{< figure src="/img/portfolio/microcontrolled-takeout-robot/rotary_cylinder.jpg" width="60%" caption="Rotary cylinder" >}}
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
-
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+{{< figure src="/img/portfolio/microcontrolled-takeout-robot/control_circuit.jpg" width="60%" caption="The controlling circuit -- the main outcome of the project" >}}
