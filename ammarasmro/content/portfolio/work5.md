@@ -3,7 +3,7 @@ image = "img/portfolio/smart-course-browser/TA3.png"
 showonlyimage = false
 draft = false
 date = "2016-11-05T19:53:42+05:30"
-title = "Smart-Course-Browser"
+title = "Smart Course Browser"
 weight = 5
 +++
 

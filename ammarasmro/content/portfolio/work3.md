@@ -2,7 +2,7 @@
 image = "/img/portfolio/connect4-otto-mvc/game_board.png"
 showonlyimage = false
 date = "2016-11-05T19:44:32+05:30"
-title = "connect4-ottotoot-mvc"
+title = "Connect4 & TOOT-OTTO games"
 draft = false
 weight = 3
 +++

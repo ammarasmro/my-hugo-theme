@@ -3,7 +3,7 @@ draft = false
 image = "/img/portfolio/deep-education/word_embedding.png"
 showonlyimage = false
 date = "2016-11-05T19:50:47+05:30"
-title = "Deep-Education"
+title = "Deep Education"
 weight = 4
 +++
 

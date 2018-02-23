@@ -3,7 +3,7 @@ showonlyimage = false
 draft = false
 image = "/img/portfolio/personalized-knowledge-graphs/schema.png"
 date = "2016-11-05T18:25:22+05:30"
-title = "personalized-knowledge-graphs"
+title = "Personal Knowledge Graphs"
 weight = 1
 +++
 

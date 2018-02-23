@@ -1,6 +1,6 @@
 +++
 date = "2016-11-05T19:41:01+05:30"
-title = "Party-Animals-Hackathon"
+title = "Party Animals Hacked2018"
 draft = false
 image = "img/portfolio/party-animals-hackathon/heatmap.png"
 showonlyimage = false
