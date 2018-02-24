@@ -5,6 +5,7 @@ date = "2016-11-05T19:44:32+05:30"
 title = "Connect4 & TOOT-OTTO games"
 draft = false
 weight = 3
+tags = ["Java", "MVC", "JavaFX", "AI", "Chatbot", "IR", "IE"]
 +++
 
 MVC implementation of Connect 4 and the OTTO and TOOT using JavaFX

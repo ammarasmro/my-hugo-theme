@@ -3,8 +3,9 @@ showonlyimage = false
 draft = false
 image = "/img/portfolio/personalized-knowledge-graphs/schema.png"
 date = "2016-11-05T18:25:22+05:30"
-title = "Personal Knowledge Graphs"
+title = "Personalized Knowledge Graphs"
 weight = 1
+tags = ["NLU", "Java", "Neo4j", "Graph", "Watson", "Chatbot", "IR", "IE"]
 +++
 
 A personal assistant that helps with projects

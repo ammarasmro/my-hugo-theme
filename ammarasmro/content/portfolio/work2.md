@@ -5,6 +5,7 @@ draft = false
 image = "img/portfolio/party-animals-hackathon/heatmap.png"
 showonlyimage = false
 weight = 2
+tags = ["Android", "Java", "Location", "Geofencing", "Heatmap", "Firebase"]
 +++
 
 A location based social media / chat application

@@ -5,6 +5,7 @@ showonlyimage = false
 date = "2016-11-05T19:50:47+05:30"
 title = "Deep Education"
 weight = 4
+tags = ["Python", "TensorFlow", "NLP", "RNN"]
 +++
 
 The advancements in the deep learning field are happening very quickly, newer and faster models are coming out everyday. Many companies are adopting every new technology that comes out but the adoption of those new technologies can be a bit slower in the educational system. The application and benefits of applying deep learning models and techniques are explored in this project. The significance of this project is in applying new models on domain specific data using a raw text corpus. At the end of the project I deduce that using RNN on word level prediction combined with beam search is a promising field. Document similarity using paragraph vectors are also tested and found to be the right model for many applications including course recommendation.

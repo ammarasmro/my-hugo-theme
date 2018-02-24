@@ -5,6 +5,7 @@ draft = false
 date = "2016-11-05T19:53:42+05:30"
 title = "Smart Course Browser"
 weight = 5
+tags = ["Recommender", "Flask", "Python", "Watson", "TradeOff Analytics", "Apache-Solr", "Word2Vec", "Word embeddings"]
 +++
 
 Abstract—Choosing a course at the university is a challenge to students that is overlooked by the system. The student to advisor ratio is big and the student needs to spend months researching a course without finding sufficient data. With so few resources, the student is left with the few lines of description from the course website and the word of mouth, which have such a big risk. Education shouldn’t be relying on risky actions. In this project, I address this issue and suggest a platform that can help in fixing it. I propose a recommender system that uses the new techniques that are used in different fields and applies them to education. The final product is a complete platform with a search engine, recommender algorithms, and a decision-making tool. The value in the methods presented here is that, unlike other educational recommendation systems, it tries to help the student decide with a step-by-step approach rather than doing all the prediction automatically.

@@ -57,3 +57,7 @@ googleAnalytics = "UA-114411937-1"
   stackoverflow = "https://stackoverflow.com/users/7568128/ammar-asmaro"
   instagram     = "https://www.instagram.com/amoryasmaro/?hl=en"
   github        = "https://github.com/ammarasmro"
+
+  [taxonomies]
+    tag = "tags"
+    category = "categories"
