@@ -15,7 +15,7 @@ googleAnalytics = "UA-114411937-1"
   description = "This is my first website. I built it to show my portfolio and practice web development."
   copyright = "&copy;2018 Ammar Asmro"
   sidebarAbout = [
-    "I am a software engineer with passion to build solutions. Searching for opportunities to take on challenges and solve real world problems",
+    "I am a software engineer with passion to build solutions. Searching for opportunities to take on challenges and solve real world problems.",
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -40,9 +40,9 @@ googleAnalytics = "UA-114411937-1"
   name = "About"
   url = "about/"
 
-  [[params.navlinks]]
-  name = "Blog"
-  url = "blog/"
+  # [[params.navlinks]]
+  # name = "Blog"
+  # url = "blog/"
 
   [[params.navlinks]]
   name = "Get in touch"
