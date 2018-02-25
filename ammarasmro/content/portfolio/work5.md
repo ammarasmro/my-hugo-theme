@@ -1,31 +1,71 @@
 +++
-image = "img/portfolio/business-card.jpg"
-showonlyimage = true
+image = "img/portfolio/smart-course-browser/TA3.png"
+showonlyimage = false
 draft = false
 date = "2016-11-05T19:53:42+05:30"
-title = "Name of the work 5"
+title = "Smart Course Browser"
 weight = 5
+tags = ["Recommender", "Flask", "Python", "Watson", "TradeOff Analytics", "Apache-Solr", "Word2Vec", "Word embeddings"]
 +++
 
-Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
-<!--more-->
+Abstract—Choosing a course at the university is a challenge to students that is overlooked by the system. The student to advisor ratio is big and the student needs to spend months researching a course without finding sufficient data. With so few resources, the student is left with the few lines of description from the course website and the word of mouth, which have such a big risk. Education shouldn’t be relying on risky actions. In this project, I address this issue and suggest a platform that can help in fixing it. I propose a recommender system that uses the new techniques that are used in different fields and applies them to education. The final product is a complete platform with a search engine, recommender algorithms, and a decision-making tool. The value in the methods presented here is that, unlike other educational recommendation systems, it tries to help the student decide with a step-by-step approach rather than doing all the prediction automatically.
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+#### Data Collection
+The data used for this project was obtained from the Software Product Management Specialization Massive Open Online Course (MOOC) that is hosted on Coursera. Data include personal data, such as grade books, ratings, performance, and assessment. This tabular data comes in Comma Delimited Value (CSV) files. The data also included notes and transcripts from the lectures. User names were anonymized by Coursera to protect the privacy of the students. So each user has a specific encrypted user ID. Those user ID’s are not consistent across the sections, for example, students’ performance cannot be linked to their feedback. Five courses are required, plus a capstone project, to finish the specialization. Table I shows the names of the courses that were used for this project.
 
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+| Courses |
+| --- |
+| Introduction to Software Product Management |
+| Software Processes and Agile Practices |
+| Client Needs and Software Requirements |
+| Agile Planning for Software Products |
+| Reviews & Metrics for Software Improvements|
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
+#### Main parts
+* **Apache Solr**
+* **Word2vec**
+* **Recommender Systems**
+  * Item-Similarity
+  * Matrix Factorization
+* **IBM Watson**
+  * TradeOff Analytics API
 
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+#### Dependencies
+* ***SQLAlchemy***
+* ***Pandas***
+* ***Scikit-Learn***
+* ***Gensim***
+* ***NLTK***
+* ***SparseSVD***
 
-## Header Level 2
+#### The system
+{{< figure src="/img/portfolio/smart-course-browser/system.jpg" width="60%" >}}
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+#### Results
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+##### Sample results of the Word2Vec model
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
+agile  |  manager
+--- | ---
+methodologies  | owner
+principles | leader
+Agile | delivering
+methods | decision
+Lean | seagull
+practices | vision
+methodology | evolves
+Scrum | evolving
+lean | managers
+linear | responsibility
 
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+*Word embeddings*
+{{< figure src="/img/portfolio/smart-course-browser/nesave.png" width="60%" >}}
+{{< figure src="/img/portfolio/smart-course-browser/nepartsave.png" width="60%" >}}
+
+
+##### TradeOff Analytics
+{{< figure src="/img/portfolio/smart-course-browser/TA1.png" width="60%" >}}
+{{< figure src="/img/portfolio/smart-course-browser/TA2.png" width="60%" >}}
+
+#### Our UI
+{{< figure src="/img/portfolio/smart-course-browser/ui.png" width="60%" >}}
