@@ -1,8 +1,8 @@
 +++
 date = "2016-11-05T19:41:01+05:30"
-title = "Party Animals Hacked2018"
+title = "Party Gathering"
 draft = false
-image = "img/portfolio/party-animals-hackathon/heatmap.png"
+image = "img/portfolio/party-gathering/heatmap.png"
 showonlyimage = false
 weight = 2
 tags = ["Android", "Java", "Location", "Geofencing", "Heatmap", "Firebase"]
