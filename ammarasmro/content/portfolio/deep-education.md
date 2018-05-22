@@ -3,7 +3,7 @@ draft = false
 comments = false
 slug = ""
 tags = ["Python", "TensorFlow", "NLP", "RNN"]
-categories = ["Machine Learning", "NLP"]
+categories = ["Machine Learning"]
 
 showpagemeta = true
 showcomments = true
