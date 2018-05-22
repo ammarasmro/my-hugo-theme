@@ -124,7 +124,7 @@ hightlightjs = true
     name = "resume"
     identifier = "resume"
     weight = 200
-    url = "/resume/"
+    url = "https://github.com/ammarasmro/my-hugo-theme/raw/master/resume/Ammar%20Asmro.pdf"
 [[menu.main]]
     name = "portfolio"
     identifier = "portfolio"
