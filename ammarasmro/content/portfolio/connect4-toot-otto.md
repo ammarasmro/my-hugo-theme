@@ -1,17 +1,22 @@
 +++
-image = "/img/portfolio/connect4-otto-mvc/game_board.png"
-showonlyimage = false
-date = "2016-11-05T19:44:32+05:30"
-title = "Connect4 & TOOT-OTTO games"
 draft = false
-weight = 3
+comments = false
+slug = ""
 tags = ["Java", "MVC", "JavaFX", "AI"]
+categories = ["School", "Game"]
+
+showpagemeta = true
+showcomments = true
+date = 2018-05-21T21:07:57-06:00
+
+title = "Connect4 & TOOT-OTTO games"
+description = "A java implementation of games using JavaFX"
+externalUrl = "https://github.com/ammarasmro/connect4_ottotoot_mvc"
+image = "/img/portfolio/connect4-otto-mvc/game_board.png"
 +++
 
 MVC implementation of Connect 4 and the OTTO and TOOT using JavaFX
 <!--more-->
-
-Keywords: Java, JavaFX, FXML, MVC
 
 ### The Model:
 GamePlay

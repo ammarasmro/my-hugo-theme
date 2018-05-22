@@ -1,11 +1,18 @@
 +++
 draft = false
-image = "/img/portfolio/real-estate-prediction/edmonton_map.png"
-date = "2016-11-05T19:56:17+05:30"
-title = "Real Estate Prediction"
-showonlyimage = false
-weight = 6
+comments = false
+slug = ""
 tags = ["Matlab", "Classification", "K-means", "Clustering", "Supervised Learning", "Unsupervised Learning"]
+categories = ["Machine Learning"]
+
+showpagemeta = true
+showcomments = true
+date = 2018-05-21T20:56:47-06:00
+
+title = "Real Estate Prediction"
+description = "A classification model for housing prices in Edmonton, AB"
+externalUrl = ""
+image = "/img/portfolio/real-estate-prediction/edmonton_map.png"
 +++
 
 Abstract—The real estate business is a difficult market to understand, but can return very high profits with the right techniques. People spend years in the market to gain the necessary experience to be able to evaluate a property and assess its price based on several factors, those factors have to be extracted from big datasets. This report aims to show an approach to automate that process, the algorithm should extract the important factors and apply them to new data to predict the prices of the new properties without human assistance. This project was divided into several parts, first the data are collected from the City of Edmonton, then these data are scanned, grouped, and prepared for classification. The next step was to use unsupervised learning clustering techniques to divide the data to classes according to the patterns or groups existing in the data. The last step was to apply supervised learning by using decision trees and ensemble bagged trees to predict the classes of the new data. By the end of this project, the results are interpreted and the workflow of how each technique was used to perform prediction through classification is explained.

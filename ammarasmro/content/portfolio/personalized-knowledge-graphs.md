@@ -1,11 +1,18 @@
 +++
-showonlyimage = false
 draft = false
-image = "/img/portfolio/personalized-knowledge-graphs/schema.png"
-date = "2016-11-05T18:25:22+05:30"
-title = "Personalized Knowledge Graphs"
-weight = 1
+comments = false
+slug = ""
 tags = ["NLU", "Java", "Neo4j", "Graph", "Watson", "Chatbot", "IR", "IE"]
+categories = ["Machine Learning", "School"]
+
+showpagemeta = true
+showcomments = true
+date = 2018-05-21T21:13:38-06:00
+
+title = "Personalized Knowledge Graphs"
+description = "A progressive graph builder to power a chatbot"
+externalUrl = "https://github.com/ammarasmro/personalized-knowledge-graphs"
+image = "/img/portfolio/personalized-knowledge-graphs/schema.png"
 +++
 
 A personal assistant that helps with projects

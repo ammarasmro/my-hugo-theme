@@ -1,11 +1,18 @@
 +++
-image = "/img/portfolio/microcontrolled-takeout-robot/cool_cover_circuit.jpg"
-showonlyimage = false
-date = "2016-11-05T19:57:40+05:30"
-title = "Microcontrolled Takeout Robot"
 draft = false
-weight = 7
+comments = false
+slug = ""
 tags = ["C++", "Robot", "Sensors", "8051", "Microcontroller", "Control"]
+categories = ["Robotics"]
+
+showpagemeta = true
+showcomments = true
+date = 2018-05-21T20:48:27-06:00
+
+title = "Microcontrolled Takeout Robot"
+description = "A pneumatic robotic arm powered by an 8051 microcontroller"
+externalUrl = "https://github.com/ammarasmro/MicroContolled-Takeout-Robot"
+image = "/img/portfolio/microcontrolled-takeout-robot/cool_cover_circuit.jpg"
 +++
 
 A pneumatic robotic system that has two movements about two axes, it is used as a take-out robot to carry any object (like a bottle or a jar or anything solid) from one side to the other. Several analysis were carried out to analyze the movements of the robot. The detection of the object can is done by a photo sensor. A strain gauge is installed in the system to detect the weight of the object. The 89c52 microcontroller is used to control the robot movement by controlling the electromagnetic valves. The microcontroller is programmed using C++ language. The sensors are used in a feedback loop to control the termination of the robot. An LCD display is added to display available options for the operator to select, which is done by pressing 4 push buttons, and to display the current state of the robot. The aim of the project was to design the controller, construct a prototype, and display it at the **Design Day** competition at the University of Duhok. Our project placed first on the ECE projects in the competition.
