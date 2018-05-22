@@ -80,7 +80,7 @@ In order to see your site in action, run Hugo's built-in local server.
 $ hugo server
 ```
 
-Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
+Now enter [`localhost:1313`](https://localhost:1313) in the address bar of your browser.
 
 ## Deployment
  - [Deploying to Amazon S3](https://github.com/kishaningithub/hugo-creative-portfolio-theme/wiki/Deploying-to-Amazon-S3)
@@ -98,4 +98,4 @@ This port is released under the MIT License. Check the [original theme license](
 
 ## Thanks
 
-Thanks to [Steve Francia](https://github.com/spf13) for creating Hugo and the awesome community around the project. And also thanks to [Bootstrapious](http://bootstrapious.com/) for creating this awesome theme.
+Thanks to [Steve Francia](https://github.com/spf13) for creating Hugo and the awesome community around the project. And also thanks to [Bootstrapious](https://bootstrapious.com/) for creating this awesome theme.

@@ -1,4 +1,4 @@
-baseURL = "https://ammarasmro.github.io/"
+baseURL = "https://ammarasmaro.com/"
 languageCode = "en-us"
 title = "Ammar Asmro"
 theme = "creative"
@@ -15,7 +15,7 @@ googleAnalytics = "UA-114411937-1"
   description = "This is my first website. I built it to show my portfolio and practice web development."
   copyright = "&copy;2018 Ammar Asmro"
   sidebarAbout = [
-    "I am a software engineer with passion to build solutions. Searching for opportunities to take on challenges and solve real world problems.",
+    "I am a software developer who is passionate about building solutions to help make people's lives better. I'm always looking for opportunities to take on challenges and solve real world problems.",
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
