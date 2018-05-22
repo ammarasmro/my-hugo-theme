@@ -66,7 +66,7 @@
 baseURL = "https://ammarasmaro.com/"
 languageCode = "en-us"
 title = "Ammar Asmro"
-theme = "creative"
+theme = "hugo-goa"
 
 # new
 builddrafts = false
@@ -99,14 +99,14 @@ disqusShortname = "ammarasmro"
 googleAnalytics = "UA-114411937-1"
 
 [params.social]
-facebook      = "https://www.facebook.com/amoryasmaro"
-googleplus    = "https://plus.google.com/+AmmarAsmaro"
+facebook      = "amoryasmaro"
+googleplus    = "+AmmarAsmaro"
 email         = "ammarasmaro@gmail.com"
-twitter       = "https://twitter.com/ammarasmaro"
-linkedin      = "https://www.linkedin.com/in/ammar-asmro/"
-stackoverflow = "https://stackoverflow.com/users/7568128/ammar-asmaro"
-instagram     = "https://www.instagram.com/amoryasmaro/?hl=en"
-github        = "https://github.com/ammarasmro"
+twitter       = "ammarasmaro"
+linkedin      = "ammar-asmro"
+stackoverflow = "7568128/ammar-asmaro"
+instagram     = "amoryasmaro"
+github        = "ammarasmro"
 
 ## Extras
 [params.extra]
